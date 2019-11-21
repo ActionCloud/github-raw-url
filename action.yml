@@ -1,5 +1,5 @@
 name: 'GitHub raw url'
-description: 'Get a raw url for a normal GitHub url'
+description: 'Convert a normal GitHub url to its raw url'
 inputs:
   github-url:  # id of input
     description: 'A normal GitHub url'
