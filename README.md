@@ -1,5 +1,7 @@
 # GitHub raw url Action
 
+![](https://github.com/actioncloud/github-raw-url/workflows/Test%20converting/badge.svg)
+
 The [Action](https://github.com/marketplace/actions/github-raw-url) convert a normal GitHub url to its raw url format.
 
 For example, the raw url of `https://github.com/actioncloud/github-raw-url/blob/master/index.js` is:
