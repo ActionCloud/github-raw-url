@@ -13,6 +13,6 @@ jobs:
       id: converting
       uses: ./
       with:
-        github-url: https://github.com/actioncloud/github-raw-url-action/blob/master/main.js
+        github-url: https://github.com/actioncloud/github-raw-url/blob/master/index.js
     - name: Check output
       run: echo '${{ steps.converting.outputs.raw-url }}'
