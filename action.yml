@@ -9,7 +9,7 @@ outputs:
     description: 'The raw url of a GitHub normal url'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
   args:
     - ${{ inputs.github-url }}
 branding:
