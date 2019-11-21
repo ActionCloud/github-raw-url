@@ -1,6 +1,6 @@
-# GitHub raw url action
+# GitHub raw url Action
 
-The Action convert a normal GitHub url to its raw url format.
+The [Action](https://github.com/marketplace/actions/github-raw-url) convert a normal GitHub url to its raw url format.
 
 For example, the raw url of `https://github.com/actioncloud/github-raw-url/blob/master/index.js` is:
 
@@ -11,7 +11,7 @@ https://raw.githubusercontent.com/actioncloud/github-raw-url/master/index.js
 ### Usage
 
 ```yaml
-# in your action.yml
+# in your workflow config file
 jobs:
   my-workflow-job:
     steps:
