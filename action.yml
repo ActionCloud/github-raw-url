@@ -10,8 +10,6 @@ outputs:
 runs:
   using: 'node12'
   main: 'dist/index.js'
-  args:
-    - ${{ inputs.github-url }}
 branding:
   icon: 'link'
   color: 'green'
