@@ -1,0 +1,23 @@
+{
+  "name": "github-raw-url-action",
+  "version": "1.0.0",
+  "description": "The Action convert a normal GitHub url to its raw url format.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actioncloud/github-raw-url-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/actioncloud/github-raw-url-action/issues"
+  },
+  "homepage": "https://github.com/actioncloud/github-raw-url-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0"
+  }
+}

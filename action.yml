@@ -1,0 +1,17 @@
+name: 'GitHub raw url'
+description: 'Get a raw url for a normal GitHub url'
+inputs:
+  github-url:  # id of input
+    description: 'A normal GitHub url'
+    required: false
+outputs:
+  raw-url: # id of output
+    description: 'The raw url of a GitHub normal url'
+runs:
+  using: 'node12'
+  main: 'index.js'
+  args:
+    - ${{ inputs.github-url }}
+branding:
+  icon: 'link'
+  color: 'green'

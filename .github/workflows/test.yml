@@ -1,0 +1,16 @@
+name: Test converting
+
+on: [push]
+
+jobs:
+  test_ruby_func:
+    runs-on: ubuntu:latest
+    name: A job to test converting
+    steps:
+    - name: Convert a GitHub url
+      id: converting
+      uses: ./
+      with:
+        github-url: https://github.com/actioncloud/github-raw-url-action/blob/master/main.js
+    - name: Check output
+      run: echo '${{ steps.converting.outputs.raw-url }}'
