@@ -8,7 +8,7 @@ For example, the raw url of `https://github.com/actioncloud/github-raw-url/blob/
 https://raw.githubusercontent.com/actioncloud/github-raw-url/master/index.js
 ```
 
-## inputs
+## Inputs
 
 ### `github-url`
 
@@ -24,6 +24,7 @@ jobs:
     - name: previous-step
       uses: a-previous-action
     - name: convert-to-raw-url
+      # or actioncloud/github-raw-url@master
       uses: actioncloud/github-raw-url@v1
       with:
         github-url: ${{ previous-step.outputs.github-url }}
