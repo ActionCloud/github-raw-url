@@ -3,7 +3,8 @@ description: 'Get a raw url for a normal GitHub url'
 inputs:
   github-url:  # id of input
     description: 'A normal GitHub url'
-    required: false
+    required: true
+    default: ''
 outputs:
   raw-url: # id of output
     description: 'The raw url of a GitHub normal url'

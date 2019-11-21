@@ -8,7 +8,13 @@ For example, the raw url of `https://github.com/actioncloud/github-raw-url/blob/
 https://raw.githubusercontent.com/actioncloud/github-raw-url/master/index.js
 ```
 
-### Usage
+## inputs
+
+### `github-url`
+
+**Required** A normal GitHub url.
+
+## Usage
 
 ```yaml
 # in your workflow config file
