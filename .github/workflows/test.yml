@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   test_ruby_func:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     name: A job to test converting
     steps:
     - name: Convert a GitHub url
