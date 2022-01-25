@@ -5,6 +5,10 @@ inputs:
     description: 'A normal GitHub url'
     required: true
     default: ''
+  github-token:
+    description: 'A github private token'
+    required: false
+    default: ''
 outputs:
   raw-url: # id of output
     description: 'The raw url of a GitHub normal url'

@@ -35,6 +35,7 @@ jobs:
       uses: actioncloud/github-raw-url@v1
       with:
         github-url: ${{ previous-step.outputs.github-url }}
+        github-token: ${{ secrets.GITHUB_TOKEN }}
     - name: Another step
       uses: <another-action>
       with:
