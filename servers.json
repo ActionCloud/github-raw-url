@@ -1,0 +1,39 @@
+{
+    "query": [
+        {
+            "number": 1,
+            "name": "Creative",
+            "ip": "144.76.57.59",
+            "port": 28663,
+            "online": 228,
+            "maxplayers": 300,
+            "password": false,
+            "plotPoints": [
+                {
+                    "online": 0,
+                    "time": 1624076223
+                },
+                {
+                    "online": 15,
+                    "time": 1624079883
+                },
+                {
+                    "online": 14,
+                    "time": 1624083542
+                },
+                {
+                    "online": 18,
+                    "time": 1624087143
+                },
+                {
+                    "online": 22,
+                    "time": 1624090802
+                },
+                {
+                    "online": 19,
+                    "time": 1624094463
+                }
+            ]
+        }
+    ]
+}
